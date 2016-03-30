@@ -1,0 +1,16 @@
+start
+
+:get user input score;
+
+if (100>=marks>=90)
+:grade=A;
+elseif (90>marks>=80)
+:grade=B;
+elseif (80>marks>=70)
+:grade=C;
+elseif (70>marks>=60)
+:grade=D;
+endif 
+:print grade;
+stop
+@enduml
