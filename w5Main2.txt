@@ -1,0 +1,27 @@
+title rspGame
+start
+:get user1 input a;
+:get user2 input b;
+if (a=='s')
+    if (b=='r')
+    :print "b wins";
+    elseif (b=='p')
+    :print "a wins";
+    endif
+elseif (a=='r')
+    if (b=='s')
+    :print "a wins";
+    elseif (b=='p')
+    :print "b wins";
+    endif
+elseif (a=='p')
+    if (b=='s')
+    :print "b wins";
+    elseif (b=='r')
+    :print "a wins";
+    endif
+elseif(a==b)
+    :print "draw";
+    endif
+stop
+@enduml
