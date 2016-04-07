@@ -13,7 +13,7 @@ stop
 -----------------------------------------
 title sum
 start
-:random number (1,100);
+:random number (1,n);
 :input number=num;
 :guess=0;
 if (random number > num);
