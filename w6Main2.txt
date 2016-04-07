@@ -1,0 +1,29 @@
+title sum
+start
+:input year;
+if (year%4 == 0) and (year%100 !=0 or year%400==0);
+:print leap year;
+else
+:print nope!;
+endif
+stop
+@enduml
+
+
+-----------------------------------------
+title sum
+start
+:random number (1,100);
+:input number=num;
+:guess=0;
+if (random number > num);
+:guess=guess+1
+:print high;
+elseif (random number < num);
+:guess=guess+1
+:print low;
+elseif (random number = num);
+:print guess, right;
+endif
+stop
+@enduml
